@@ -1,2 +1,2 @@
-# EthereumMinerGUI
-Ethereum miner GUI on Windows
+# EMG
+EMG is Ethereum miner GUI on Windows
