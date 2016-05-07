@@ -13,22 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace EMG
+namespace EMG.Windows
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CaptionButtons.xaml
     /// </summary>
-    public partial class MainWindow
+    public partial class CaptionButtons : UserControl
     {
-        public MainWindow()
+        public CaptionButtons()
         {
             InitializeComponent();
-        }
-
-        private void Window_StateChanged(object sender, EventArgs e)
-        {
-            if (WindowState == System.Windows.WindowState.Maximized) Windows.Margin = new Thickness(7);
-            else if (WindowState == System.Windows.WindowState.Normal) Windows.Margin = new Thickness(0, 0, 0, 0);
         }
     }
 }
